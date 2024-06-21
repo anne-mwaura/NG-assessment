@@ -1,0 +1,28 @@
+.wheel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.custom-button {
+  padding: 12px 24px;
+  font-size: 15px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+.custom-paragraph {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+}
